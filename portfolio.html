@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad_Arman | Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="icon" href="logo.png" type="image/png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <!-- navbar     -->
+    <nav class="navbar">
+      <div class="logo"><img src="logo.png" alt="" /></div>
+      <div class="hamburger" id="hamburger">
+        <i class='bx bx-menu'  ></i>
+        <!-- <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span> -->
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <img src="moon.png" id="moon" />
+      </ul>
+    </nav>
+    <!-- main -->
+    <header class="container">
+      <div class="content">
+        <h3>Hello, It's me</h3>
+        <h3>Muhammad Arman</h3>
+        <h4>& I'm <span class="auto-type"> </span></h4>
+        <p>
+          Hi, I am Muhammad Arman, a passionate AI engineer and full-stack
+          developer with a passion for building intelligent systems and seamless
+          digital solutions. Also I build web applications. With a strong
+          background in Ai and software development, I have experience working
+          with advanced technologies such as Python, Typescript, Node.js, and
+          React. I am always eager to learn new technology, and work on exciting
+          projects that push the boundaries of technology. Let's create
+          something incredible together!
+        </p>
+        <button class="btn">Get Resume</button>
+      </div>
+      <div class="img">
+        <img src="mypic.png" />
+      </div>
+    </header>
+    <!-- skill  -->
+    <section class="skills" id="skills">
+      SKILLS
+      <div class="progress-container">
+        <div class="progress" id="progress1" data-color="#e34c26">
+          <div class="progress-inner">
+            <div class="progress-value" id="progress-value1"></div>
+            <div class="progress-label">HTML</div>
+          </div>
+        </div>
+        <div class="progress" id="progress2" data-color="#2965f1">
+          <div class="progress-inner">
+            <div class="progress-value" id="progress-value2">0%</div>
+            <div class="progress-label">CSS</div>
+          </div>
+        </div>
+        <div class="progress" id="progress3" data-color="#E5A42A">
+          <div class="progress-inner">
+            <div class="progress-value" id="progress-value3">0%</div>
+            <div class="progress-label">JS</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="progress-container">
+        <div class="progress" id="progress4" data-color="#007acc">
+          <div class="progress-inner">
+            <div class="progress-value" id="progress-value4"></div>
+            <div class="progress-label">TS</div>
+          </div>
+        </div>
+        <div class="progress" id="progress5" data-color="#68A063">
+          <div class="progress-inner">
+            <div class="progress-value" id="progress-value5">0%</div>
+            <div class="progress-label">NODEJS</div>
+          </div>
+        </div>
+        <div class="progress" id="progress6" data-color="#88dded">
+          <div class="progress-inner">
+            <div class="progress-value" id="progress-value6">0%</div>
+            <div class="progress-label">REACT</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project  -->
+    <section class="projects" id="project">
+      <h1>PROJECTS</h1>
+      <div class="banner">
+        <div class="slider" style="--quantity: 8">
+          <div class="item" style="--position: 1">
+            <a href="https://github.com/MuhammadArman1/ATM-machine.git" target="_blank">
+            <img src="ATMmachine.jpg"/></a>ATM-MACHINE
+          </div>
+          <div class="item" style="--position: 2">
+            <a href="https://github.com/MuhammadArman1/Simple_Calculator.git" target="_blank">
+            <img src="calculator.jpg"/></a>CALCULATOR
+          </div>
+          <div class="item" style="--position: 3">
+            <a href="https://github.com/MuhammadArman1/currency_converter.git" target="_blank">
+            <img src="currency-converter.jpg"/></a>CURRENCY-CONVERTER
+          </div>
+          <div class="item" style="--position: 4">
+            <a href="https://github.com/MuhammadArman1/Number_Guessing_Game.git" target="_blank">
+            <img src="Numberguessinggame.png"/></a>NUMBER-GUSSING GAME
+          </div>
+          <div class="item" style="--position: 5">
+            <a href="https://github.com/MuhammadArman1/todo-list.git" target="_blank">
+            <img src="todo list.jpg"/></a>TODO-LIST
+          </div>
+          <div class="item" style="--position: 6">
+            <a href="https://github.com/MuhammadArman1/quiz.git" target="_blank">
+            <img src="quiz.jpg"/></a>QUIZ
+          </div>
+          <div class="item" style="--position: 7">
+            <a href="https://github.com/MuhammadArman1/Word_Counter.git" target="_blank">
+              <img src="wordcounter.png" /></a>WORD-COUNTER
+          </div>
+          <div class="item" style="--position: 8">
+            <a href="https://github.com/MuhammadArman1/Student_management_system.git" target="_blank">
+            <img src="sms.png"/></a>STUDENT-MANAGMENT SYSTEM
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Form -->
+    <form class="page-4" id="contact">
+      <h2>CONTACT ME</h2>
+      <div class="page-4-inner">
+        <label>NAME</label>
+        <input type="text" placeholder="Name"/>
+        <label>EMAIL</label>
+        <input type="email" placeholder="Enter email"/>
+        <label>PASSWORD</label>
+        <input type="password" placeholder="Password"/>
+        <label>MESSAGE</label>
+        <input type="text" placeholder="message"/>
+      <button id="btn" >Next</button> 
+      </div>
+    </form>
+    <!-- footer  -->
+    <footer class="foot">
+      <div class="footer-inner">
+       <a href="https://www.instagram.com/muhammad_____arman/" target="_blank"><i class='bx bxl-instagram bx-md' ></i></a> 
+       <a href="https://github.com/MuhammadArman1" target="_blank"><i class='bx bxl-github bx-md'></i></a> 
+       <a href="https://www.linkedin.com/in/muhammad-arman-6a10412bb/"><i class='bx bxl-linkedin bx-md'></i></a> 
+       <i class='bx bxl-npm bx-md' ></i>
+
+      </div>
+    </footer>
+    <div id="footer-bottom">&copy; 2024 MyWebsite. All rights reserved.</div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
