@@ -316,7 +316,8 @@ label {
 
 .page-4-inner > input[type="text"],
 .page-4-inner > input[type="email"],
-.page-4-inner > input[type="password"] {
+.page-4-inner > input[type="password"],
+.page-4-inner > textarea {
   width: 100%;
   padding: 12px;
   margin-bottom: 15px;

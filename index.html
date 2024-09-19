@@ -132,18 +132,17 @@
       </div>
     </section>
     <!-- Form -->
-    <form class="page-4" id="contact">
+    <form class="page-4" id="contact" action="https://api.web3forms.com/submit" method="POST">
       <h2>CONTACT ME</h2>
       <div class="page-4-inner">
+        <input type="hidden" name="access_key" value="8cee85da-1b31-4cb8-a58f-2f41b25c88e9">
         <label>NAME</label>
-        <input type="text" placeholder="Name"/>
+        <input type="text" name="name" required>
         <label>EMAIL</label>
-        <input type="email" placeholder="Enter email"/>
-        <label>PASSWORD</label>
-        <input type="password" placeholder="Password"/>
+        <input type="email" name="email" required>
         <label>MESSAGE</label>
-        <input type="text" placeholder="message"/>
-      <button id="btn" >Next</button> 
+        <textarea name="message" required></textarea>
+        <button type="submit" id="btn">Submit Form</button>
       </div>
     </form>
     <!-- footer  -->
