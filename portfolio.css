@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Ruge+Boogie&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -156,7 +157,6 @@ span {
 .skills {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  /* padding-bottom: 10%; */
   font-size: 80px;
   font-style: unset;
   color: var(--text);
@@ -172,7 +172,6 @@ span {
   position: relative;
   width: 200px;
   height: 200px;
-  /* background-color: #444; */
   border-radius: 50%;
   cursor: pointer;
   display: flex;
@@ -353,7 +352,7 @@ label {
 .bx {
   cursor: pointer;
   color: var(--text);
-  margin: 25px;
+  margin: 20px;
   &:hover {
     color: #ffffff;
     border-bottom: 2px solid;
@@ -371,7 +370,7 @@ label {
   font-size: large;
 }
 
-@media (max-width: 600px) {
+ @media (max-width: 600px) {
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -383,7 +382,7 @@ label {
     background-color: var(--primary);
     position: absolute;
     top: 80px;
-    right: 0px;
+    right:-20px;
   }
   .nav-links.active {
     display: flex;
@@ -424,7 +423,7 @@ label {
     flex-wrap: wrap;
   }
   .container > .content > h3 {
-    font-size: 33px;
+    font-size: 32px;
   }
   .content h4 {
     font-size: 45px;
@@ -483,5 +482,51 @@ label {
   }
   .foot > .footer-inner {
     margin-left: 60px;
+  }
+} 
+@media (max-width:400px){
+  .nav-links{
+    width: 60vh;
+  }
+  .container .img img{
+    width: 250px;
+    height: 250px;
+  }
+  .btn{
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 5px 3px -1px #111;
+  }
+  .skills{
+    height: 290vh;
+  }
+  .progress{
+    width: 180px;
+    height: 180px;
+    &:hover{
+      scale: none;
+    }
+  }
+  .projects{
+    height: 550vh;
+  }
+  .projects > h1 {
+    font-size: 60px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+  
+  }
+  .page-4{
+    margin-left: 8px;
+    height: 110vh;
+  }
+  .page-4 > .page-4-inner{
+    margin-bottom: 70%;
+  }
+  .foot{
+    width: 60vh;
+  }
+  #footer-bottom{
+    width:60vh;
   }
 }
